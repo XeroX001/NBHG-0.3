@@ -1,41 +1,31 @@
 {
-    "id": "a21250d9-bb8a-4405-9867-8b5b0d4a2b44",
+    "id": "49b5892d-80b9-4e32-a5bd-577baab960c2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlayer",
+    "name": "oDead",
     "eventList": [
         {
-            "id": "691c866d-2516-4973-ab23-0855b0cc35a0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "a21250d9-bb8a-4405-9867-8b5b0d4a2b44"
-        },
-        {
-            "id": "04107fcb-fef8-44e8-a1fc-1417ea0c104b",
+            "id": "5b115438-b766-4a2a-a614-6f01ea4078ec",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "a21250d9-bb8a-4405-9867-8b5b0d4a2b44"
+            "m_owner": "49b5892d-80b9-4e32-a5bd-577baab960c2"
         },
         {
-            "id": "0795273d-a2cc-49a1-b8d7-9c25180db2f0",
+            "id": "21d6024f-b3de-4a15-a430-bac0a5bb4dbf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 82,
-            "eventtype": 9,
-            "m_owner": "a21250d9-bb8a-4405-9867-8b5b0d4a2b44"
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "49b5892d-80b9-4e32-a5bd-577baab960c2"
         }
     ],
-    "maskSpriteId": "01d2c984-895a-4ac5-ad63-675d7473ea16",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "01d2c984-895a-4ac5-ad63-675d7473ea16",
+    "spriteId": "123ee505-5b4d-4d71-9c55-ac176c7a6c61",
     "visible": true
 }
