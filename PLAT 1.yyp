@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "63644a94-6950-4f2e-8c10-9715fcf0e4de",
+            "Value": {
+                "id": "5fed22de-1cd1-472e-a4f4-de1da842501a",
+                "resourcePath": "sprites\\sTiles\\sTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b739cf7-a1c3-47c3-a372-87b743dcd593",
             "Value": {
                 "id": "5fdaed76-68eb-4e1b-8bfb-b6af3f389bef",
@@ -276,6 +284,22 @@
                 "id": "9e9f36d0-530d-4f60-87fb-85591a176b13",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d67900e3-43a3-4839-889a-6e30c82d7b67",
+            "Value": {
+                "id": "9780bbef-782d-4761-b453-2804eed6c41f",
+                "resourcePath": "tilesets\\tTiles\\tTiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "d6b1b3ad-fac6-46d1-8e91-e7e00ee163fb",
+            "Value": {
+                "id": "7c1d3bef-bcc1-4e89-8e15-2fdb60d7db57",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
