@@ -1,27 +1,33 @@
-
-
-vsp=vsp+grv;
-
-//vertical collision
-if (place_meeting(x+hsp,y,oWall))
+if (done == 0)
 {
-	while (!place_meeting(x+sign(hsp),y,oWall))
+	vsp=vsp+grv;
+
+	//horizontal collision
+	if (place_meeting(x+hsp,y,oWall))
 	{
-	x=x+sign(hsp);
+		while (!place_meeting(x+sign(hsp),y,oWall))
+		{
+		x=x+sign(hsp);
+		}
+	    hsp=0;
+
 	}
-    hsp=0;
+	x=x+hsp;
 
-}
-x=x+hsp;
-
-//horizontal collision
-if (place_meeting(x,y+vsp,oWall))
-{
-	while (!place_meeting(x,y+sign(vsp),oWall))
+	//vertical collision
+	if (place_meeting(x,y+vsp,oWall))
 	{
-	y=y+sign(vsp);
-	}
-    vsp=0;
+		if (vsp>0) 
+		{ 
+			done=1;
+			image_index=1;
+		}	
+		while (!place_meeting(x,y+sign(vsp),oWall))
+		{
+		y=y+sign(vsp);
+		}
+	    vsp=0;
 
+	}
+	y=y+vsp;
 }
-y=y+vsp;
