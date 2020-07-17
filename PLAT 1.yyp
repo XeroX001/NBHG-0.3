@@ -103,6 +103,22 @@
             }
         },
         {
+            "Key": "49cfcfc2-9cc1-49e3-b93a-76a9cd075151",
+            "Value": {
+                "id": "38122e68-9b8c-4d97-a56d-61422eb6e887",
+                "resourcePath": "objects\\oTransition\\oTransition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4aeebb24-5d38-4348-be8e-015cc904be35",
+            "Value": {
+                "id": "a8ab4005-4d73-4b39-bcef-397ec5ad8ae6",
+                "resourcePath": "rooms\\rTwo\\rTwo.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4b062e38-da11-415b-a961-21b0e512d9f8",
             "Value": {
                 "id": "17680c06-7d3a-4e2d-ad35-c365a411014f",
@@ -234,8 +250,16 @@
             "Key": "a51f166f-3846-4b70-a45e-02607439f6b0",
             "Value": {
                 "id": "3b049f75-db7f-44a2-b355-0f8f132b0dc4",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rOne\\rOne.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a74af8a3-d31b-493b-aff9-0cf707fc08f4",
+            "Value": {
+                "id": "31a02373-8279-4adb-896e-8d53fdc0d1c5",
+                "resourcePath": "scripts\\SlideTransition\\SlideTransition.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -263,6 +287,14 @@
             }
         },
         {
+            "Key": "b57e6432-a760-4a7b-a472-fde441e8929a",
+            "Value": {
+                "id": "2b6e72c6-6b9e-4a93-b9a9-ed683e9ce769",
+                "resourcePath": "sprites\\sTrigger\\sTrigger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c72105b8-576d-4fc2-a016-e061c2581776",
             "Value": {
                 "id": "9b5be353-286a-44fb-b879-f5bec2304786",
@@ -284,6 +316,14 @@
                 "id": "9e9f36d0-530d-4f60-87fb-85591a176b13",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d5db2b0a-e573-4e98-aa86-8cf9cd40bdc6",
+            "Value": {
+                "id": "7b186c8f-9c9c-4f60-99d7-c21d181fa432",
+                "resourcePath": "objects\\oLevelEnd\\oLevelEnd.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -352,7 +392,7 @@
         }
     ],
     "script_order": [
-        
+        "a74af8a3-d31b-493b-aff9-0cf707fc08f4"
     ],
     "tutorial": ""
 }
