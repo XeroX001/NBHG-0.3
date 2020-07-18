@@ -445,6 +445,14 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fb3d57f3-f447-4a86-abd1-a8c231943f57",
+            "Value": {
+                "id": "c478484b-2bc1-42fa-9214-e8a0661148e0",
+                "resourcePath": "objects\\oEnemyBig\\oEnemyBig.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
