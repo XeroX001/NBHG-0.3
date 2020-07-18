@@ -3,8 +3,15 @@
 // update destination
 if (instance_exists(follow))
 {
-xTo=follow.x
-yTo=follow.y
+	xTo=follow.x
+	yTo=follow.y
+
+	if ((follow).object_index == oPDead)
+	{
+		x = xTo;
+		y = yTo;
+	}
+
 }
 
 // update object postion
