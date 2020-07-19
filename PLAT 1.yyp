@@ -71,11 +71,35 @@
             }
         },
         {
+            "Key": "196c65f7-6e25-41c0-9f46-3c717d269856",
+            "Value": {
+                "id": "8aebff5a-1cf3-4894-a8df-083a7e07f548",
+                "resourcePath": "objects\\oSign\\oSign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1c2a20aa-b5c4-4b6a-a564-8dbf7d2bb4d1",
+            "Value": {
+                "id": "44f30cac-f016-4d3c-a126-34f3080614d3",
+                "resourcePath": "objects\\oText\\oText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "20ead4ad-aee4-45f1-849a-945c306472fd",
             "Value": {
                 "id": "e87a340d-b56b-4f13-8f33-d4f1c30978c0",
                 "resourcePath": "objects\\oPDead\\oPDead.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2d1398b2-e9d2-42e2-8f6d-0a77edcdd685",
+            "Value": {
+                "id": "41e1e7c2-ce67-44a1-9127-d2853f140bc3",
+                "resourcePath": "fonts\\fSign\\fSign.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -187,6 +211,14 @@
             "Value": {
                 "id": "9b8dab25-a466-4f05-9278-6e26e024ea27",
                 "resourcePath": "sprites\\sEnemyR\\sEnemyR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f65e763-2649-4b84-bb78-15031fb8f193",
+            "Value": {
+                "id": "17b754e9-3a59-46fb-a51e-a0e024152556",
+                "resourcePath": "sprites\\sMarker\\sMarker.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -383,6 +415,14 @@
             }
         },
         {
+            "Key": "b1ed66ec-fe54-4728-a6c3-fb1d2d27ca1c",
+            "Value": {
+                "id": "7f8797f0-2545-4482-ae65-48c043d7b1f0",
+                "resourcePath": "sprites\\sSign\\sSign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b57e6432-a760-4a7b-a472-fde441e8929a",
             "Value": {
                 "id": "2b6e72c6-6b9e-4a93-b9a9-ed683e9ce769",
@@ -503,6 +543,14 @@
             }
         },
         {
+            "Key": "f0fef68b-22dd-4236-980e-07c5ce2996cf",
+            "Value": {
+                "id": "19c2cbb7-da22-4219-9ab1-4ec83886d26a",
+                "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c563db9f-e7e9-472d-aab0-9fa5be1cf46b",
@@ -529,7 +577,8 @@
     ],
     "script_order": [
         "a74af8a3-d31b-493b-aff9-0cf707fc08f4",
-        "736cedb5-8f6c-4eb0-a507-404aa9ac30ad"
+        "736cedb5-8f6c-4eb0-a507-404aa9ac30ad",
+        "f0fef68b-22dd-4236-980e-07c5ce2996cf"
     ],
     "tutorial": ""
 }
